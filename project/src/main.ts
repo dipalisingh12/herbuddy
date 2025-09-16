@@ -8,14 +8,14 @@ import { FooterComponent } from './app/components/footer/footer.component';
 import { HomeComponent } from './app/components/home/home.component';
 import { AboutComponent } from './app/components/about/about.component';
 import { ContactComponent } from './app/components/contact/contact.component';
-import { WelcomeComponent } from './app/components/welcome/welcome.component';
+//import { WelcomeComponent } from './app/components/welcome/welcome.component';
 
 const routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'welcome', component: WelcomeComponent },
+  //{ path: 'welcome', component: WelcomeComponent },
   { path: '**', redirectTo: '' }
 ];
 
